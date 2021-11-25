@@ -15,4 +15,5 @@ MonoBehaviour:
   nowScore: 0
   maxScore: 15
   loadScene: 0
+  name: Alphabet
   _mainImage: {fileID: 21300000, guid: 5c5e9866988a80f40bdb91570d03d889, type: 3}

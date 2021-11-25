@@ -7,5 +7,6 @@ public class DataCell : ScriptableObject
     public int nowScore;
     public int maxScore;
     public int loadScene;
+    public string name;
     public Sprite _mainImage;
 }

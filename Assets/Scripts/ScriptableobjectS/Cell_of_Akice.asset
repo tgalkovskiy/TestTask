@@ -15,4 +15,5 @@ MonoBehaviour:
   nowScore: 0
   maxScore: 17
   loadScene: 0
+  name: Alice
   _mainImage: {fileID: 21300000, guid: ffcf405f8db76244ab3aace9e4b48e7f, type: 3}

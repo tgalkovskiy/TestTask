@@ -15,4 +15,5 @@ MonoBehaviour:
   nowScore: 0
   maxScore: 20
   loadScene: 0
+  name: Numbers
   _mainImage: {fileID: 21300000, guid: 3b7cc3e6e4b11204084edaf9be8ec3ef, type: 3}

@@ -12,6 +12,7 @@ namespace UIView
 
         [SerializeField] private Button _play = default;
         [SerializeField] private Image _mainImageEvent = default;
+        [SerializeField] private TMP_Text _name = default;
         [SerializeField] private TMP_Text _maxScore = default;
         [SerializeField] private TMP_Text _nowScore = default;
         private DataCell _dataCell;
@@ -36,6 +37,7 @@ namespace UIView
             _controller = controller;
             _getCount += _controller.SetScore;
             _mainImageEvent.sprite = _dataCell._mainImage;
+            _name.text = $"{_dataCell.name}";
             _maxScore.text = $"{_dataCell.maxScore}";
             _nowScore.text = $"{_dataCell.nowScore}";
             _play.onClick.AddListener((() =>
